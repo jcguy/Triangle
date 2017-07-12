@@ -1,6 +1,6 @@
 CC=g++
 OBJ=triangle.o
-CFLAGS=-Wall -std=c++11 -I/usr/include/libpng16
+CFLAGS=-Wall -std=c++11 -I/usr/include/libpng16 -O3
 LDFLAGS=-L/usr/lib -lpng16
 
 triangle: $(OBJ)
